@@ -35,7 +35,7 @@ function resizeCanvas(canvas) {
 function repaint() {
   if (!ctx) return;
   var logo = new Image();
-  logo.src = '../images/content/bg.png';
+  logo.src = 'images/content/bg.png';
   var pattern = ctx.createPattern(logo, "repeat");
  ctx.fillStyle = pattern;
  ctx.lineWidth = 10;
